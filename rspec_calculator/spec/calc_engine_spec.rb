@@ -3,8 +3,8 @@ require 'spec_helper'
 describe 'Calcengine' do
 
 	before(:each) do
-	   @calc = Calcengine.new
-	 end
+	 @calc = Calcengine.new
+	end
 	
  	it 'should correctly add two numbers'do 
 
