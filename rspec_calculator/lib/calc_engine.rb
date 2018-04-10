@@ -1,42 +1,26 @@
-
 class Calcengine
-attr_accessor :num1, :num2
 
-	#initialize method 
-	def initialize(num1, num2)
-		#creating global variables
-		@num1 = 4
-		@num2 = 2
-	end
-
-	def add
+	def add (num1,num2)
 
 		answer = num1 + num2
 
 	end
 
-	def substract 
+	def substract (num1,num2)
 
-		answer = @num1 - @num2
-
-	end
-
-	def divide 
-
-		answer = (@num1 % @num2).to_f
+		answer = num1 - num2
 
 	end
 
-	def multiple 
+	def divide (a,b)
 
-		answer = @num1 * @num2
+		answer = num1 % num2
 
 	end
 
+	def multiple (num1,num2)
+
+		answer = num1 * num2
+
+	end
 end
-
-calc = Calcengine.new("")
-calc.add 
-calc.substract
-calc.multiple
-calc.divide
