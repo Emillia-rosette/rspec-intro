@@ -2,9 +2,11 @@ require 'spec_helper'
 
 describe 'Calcengine' do
 
-	it'should correctly add two numbers'do 
-		before (:each) do
-		calc = Calcengine.new
+	before(:each) do
+	   @calc = Calcengine.new
+	 end
+	
+ 	it 'should correctly add two numbers'do 
 
 		expect(@calc.add(1,1)).to eql(2)
 		
@@ -27,6 +29,6 @@ describe 'Calcengine' do
 
 		# calc = Calcengine.new
 
-		expect(@calc.divide((a,b)to equal(c).to_f
+		expect(@calc.divide(8,4)).to equal(2)
 	end
 end 

@@ -12,12 +12,12 @@ class Calcengine
 
 	end
 
-	def divide (a,b)
+	def divide(num1,num2)
 
-		answer = num1 % num2
+		answer = num1 / num2
 
 	end
-
+	
 	def multiple (num1,num2)
 
 		answer = num1 * num2
